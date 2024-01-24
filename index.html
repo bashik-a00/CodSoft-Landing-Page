@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-  
+  <div class="nav-div">
+    <nav id="nav">
+      <a href="#nav">Home</a>
+      <a href="#section">Features</a>
+      <a href="">Contact</a>
+    </nav>
+  </div>
+  <header>
+    <div class="hero-content">
+      <h1>Crafting Digital Experiences That Captivate
+      </h1>
+      <p>Your Vision, Our Expertise – Elevate Your Online Presence with Seamless Design and Development</p>
+      <div class="button-grid">
+        <button><a href="https://portfoliobybashik.vercel.app">Portfolio</a></button>
+      </div>
+    </div>
+    <div>
+      <img class="hero-img" alt="img" src="./icons8-google-code.svg">
+    </div>
+  </header>
+
+  <section>
+    <h2 id="section">Features</h2>
+    <div id="features-section">
+      <div class="container">
+        <div class="row features-row">
+          <div class="col-lg-3 col-md-6 feature-box">
+            <h3>Pixel Perfect Design</h3>
+            <p>From responsive layouts to stunning visuals, I ensure your website is a joy to use and visually
+              compelling.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row features-row">
+          <div class="col-lg-3 col-md-6 feature-box">
+            <h3>Robust Development</h3>
+            <p>bring your ideas to life using clean, secure, and scalable code. Whether it's a static website, a dynamic
+              application, or an e-commerce platform</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row features-row">
+          <div class="col-lg-3 col-md-6 feature-box">
+            <h3>Seamless Integration</h3>
+            <p>From CRM integrations to payment gateways and social media, I connect your digital ecosystem for a smooth
+              and efficient workflow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Get in Touch</h2>
+          <p>We're always happy to hear from you! Whether you have questions, feedback, or just want to say hi, fill out
+            the form below or reach out to us directly through our social media channels.</p>
+        </div>
+        <div class="col-md-6">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="social-media-icons">
+      <a href="#"><i class="X">X</i></a>
+      <a href="#"><i class="linkedin">LinkedIn</i></a>
+      <a href="#"><i class="discord"></i>Discord</a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Stay up-to-date with our latest news and offers.</p>
+        </div>
+        <div class="col-md-6">
+          <form action="#">
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
